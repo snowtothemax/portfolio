@@ -1,0 +1,66 @@
+@font-face{
+    font-family: 'Trench';
+    src: url(/fonts/trenchThin.ttf);
+}
+
+@font-face {font-family: "Gilroy"; src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot"); src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff") format("woff"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.svg#Gilroy") format("svg"); }
+
+@keyframes imgHover {
+    from {width: 300;
+           height: 200;}
+    to    {width:330;
+            height: 220;}
+}
+
+.topbar {
+    margin:0;
+    padding:0;
+    border:0;
+    height:40;
+    max-width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeContent{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.galleryContent{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.centerPage{
+    padding-left: 20;
+    padding-right: 20;
+}
+
+

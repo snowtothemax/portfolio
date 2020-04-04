@@ -1,6 +1,6 @@
 import Card from '../Card'
-import resumeIcon from '../../resources/resume-icon.png'
-import elephant from '../../resources/elephantMe.jpg'
+import resumeIcon from '../../assets/resume-icon.png'
+import elephant from '../../assets/elephantMe.jpg'
 import Image from 'react'
 
 export default class SideNav extends React.Component{

@@ -21,7 +21,7 @@ export default class Card extends React.Component {
         if (this.state.clickable) {
             //the Card that is created if clickable is true
             return (
-                <div style={linkStyle} onMouseEnter={() => this.setState({hover: !this.state.hover})} onMouseLeave={() => this.setState({hover: !this.state.hover})} onClick={() => this.props.onClick}>
+                <div style={linkStyle} onMouseEnter={() => this.setState({hover: !this.state.hover})} onMouseLeave={() => this.setState({hover: !this.state.hover})} onClick={this.props.onClick}>
                     {this.props.children}
                 </div>
             )
