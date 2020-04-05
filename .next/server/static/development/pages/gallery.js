@@ -334,7 +334,7 @@ class Card extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
     if (this.state.hover) {
       linkStyle = {
-        width: this.props.width,
+        maxWidth: this.props.width,
         maxHeight: this.props.height,
         background: '#FFFFFF',
         cursor: 'pointer',
@@ -345,7 +345,7 @@ class Card extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       };
     } else {
       linkStyle = {
-        width: this.props.width,
+        maxWidth: this.props.width,
         maxHeight: this.props.height,
         background: '#FFFFFF',
         flexDirection: 'column',
@@ -564,8 +564,7 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       style: {
         fontFamily: 'Gilroy',
         fontSize: 50,
-        paddingLeft: 20,
-        flex: 1
+        paddingLeft: 20
       },
       __self: this,
       __source: {
@@ -589,7 +588,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor1
+        color: selectColor1,
+        paddingRight: 20
       },
       __self: this,
       __source: {
@@ -613,7 +613,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor2
+        color: selectColor2,
+        paddingRight: 20
       },
       __self: this,
       __source: {
@@ -637,7 +638,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor3
+        color: selectColor3,
+        paddingRight: 20
       },
       __self: this,
       __source: {

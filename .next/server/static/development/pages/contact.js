@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -202,7 +202,7 @@ class Card extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
     if (this.state.hover) {
       linkStyle = {
-        width: this.props.width,
+        maxWidth: this.props.width,
         maxHeight: this.props.height,
         background: '#FFFFFF',
         cursor: 'pointer',
@@ -213,7 +213,7 @@ class Card extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       };
     } else {
       linkStyle = {
-        width: this.props.width,
+        maxWidth: this.props.width,
         maxHeight: this.props.height,
         background: '#FFFFFF',
         flexDirection: 'column',
@@ -346,8 +346,7 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       style: {
         fontFamily: 'Gilroy',
         fontSize: 50,
-        paddingLeft: 20,
-        flex: 1
+        paddingLeft: 20
       },
       __self: this,
       __source: {
@@ -371,7 +370,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor1
+        color: selectColor1,
+        paddingRight: 20
       },
       __self: this,
       __source: {
@@ -395,7 +395,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor2
+        color: selectColor2,
+        paddingRight: 20
       },
       __self: this,
       __source: {
@@ -419,7 +420,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor3
+        color: selectColor3,
+        paddingRight: 20
       },
       __self: this,
       __source: {
@@ -673,6 +675,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       height: "auto",
       width: "auto",
       clickable: true,
+      onClick: () => next_router__WEBPACK_IMPORTED_MODULE_10___default.a.push("/facebookRedirect"),
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -749,6 +752,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       clickable: true,
       height: "auto",
       width: "auto",
+      onClick: () => next_router__WEBPACK_IMPORTED_MODULE_10___default.a.push("/instagramRedirect"),
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -774,6 +778,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       clickable: true,
       height: "auto",
       width: "auto",
+      onClick: () => next_router__WEBPACK_IMPORTED_MODULE_10___default.a.push("/githubRedirect"),
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -916,7 +921,7 @@ class Contact extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!********************************!*\
   !*** multi ./pages/contact.js ***!
   \********************************/

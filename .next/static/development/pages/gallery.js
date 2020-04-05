@@ -269,7 +269,7 @@ var Card = /*#__PURE__*/function (_React$Component) {
 
       if (this.state.hover) {
         linkStyle = {
-          width: this.props.width,
+          maxWidth: this.props.width,
           maxHeight: this.props.height,
           background: '#FFFFFF',
           cursor: 'pointer',
@@ -280,7 +280,7 @@ var Card = /*#__PURE__*/function (_React$Component) {
         };
       } else {
         linkStyle = {
-          width: this.props.width,
+          maxWidth: this.props.width,
           maxHeight: this.props.height,
           background: '#FFFFFF',
           flexDirection: 'column',
@@ -571,8 +571,7 @@ var TopBarNav = /*#__PURE__*/function (_React$Component) {
         style: {
           fontFamily: 'Gilroy',
           fontSize: 50,
-          paddingLeft: 20,
-          flex: 1
+          paddingLeft: 20
         },
         __self: this,
         __source: {
@@ -598,7 +597,8 @@ var TopBarNav = /*#__PURE__*/function (_React$Component) {
           paddingTop: 17,
           fontSize: 30,
           fontFamily: 'Gilroy',
-          color: selectColor1
+          color: selectColor1,
+          paddingRight: 20
         },
         __self: this,
         __source: {
@@ -624,7 +624,8 @@ var TopBarNav = /*#__PURE__*/function (_React$Component) {
           paddingTop: 17,
           fontSize: 30,
           fontFamily: 'Gilroy',
-          color: selectColor2
+          color: selectColor2,
+          paddingRight: 20
         },
         __self: this,
         __source: {
@@ -650,7 +651,8 @@ var TopBarNav = /*#__PURE__*/function (_React$Component) {
           paddingTop: 17,
           fontSize: 30,
           fontFamily: 'Gilroy',
-          color: selectColor3
+          color: selectColor3,
+          paddingRight: 20
         },
         __self: this,
         __source: {

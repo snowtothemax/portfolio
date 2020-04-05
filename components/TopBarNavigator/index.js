@@ -27,7 +27,7 @@ export default class TopBarNav extends React.Component {
                 {/* My name and wisconsin Image */}
                 <Card clickable={false} height='100%' width='40vw'>
                     <img src={uwLogo} style={{ paddingLeft: 55, height: 70, maxWidth: 60 }}></img>
-                    <text style={{ fontFamily: 'Gilroy', fontSize: 50, paddingLeft: 20, flex: 1 }}>
+                    <text style={{ fontFamily: 'Gilroy', fontSize: 50, paddingLeft: 20,}}>
                         Max Johnson
                 </text>
                 </Card>
@@ -35,7 +35,7 @@ export default class TopBarNav extends React.Component {
                 {/* Home Button */}
                 
                 <Card clickable={true} height={this.state.cardHeight} width='13vw' onClick={() => Router.push("/")}>
-                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor1 }}>
+                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor1, paddingRight: 20}}>
                         Home
                     </text>
                 </Card>
@@ -44,7 +44,7 @@ export default class TopBarNav extends React.Component {
                 {/* Projects Button */}
                 
                 <Card clickable={true} height={this.state.cardHeight} width='13vw' onClick={() => Router.push("/projects")}>
-                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor2 }}>
+                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor2, paddingRight: 20}}>
                         Projects
                     </text>
                 </Card>
@@ -53,7 +53,7 @@ export default class TopBarNav extends React.Component {
                 {/* Gallery Button */}
                 
                 <Card clickable={true} height={this.state.cardHeight} width='13vw' onClick={() => Router.push("/gallery")}>
-                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor3 }}>
+                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor3, paddingRight: 20 }}>
                         Gallery
                     </text>
                 </Card>

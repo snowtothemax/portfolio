@@ -17,17 +17,18 @@ export default class Index extends React.Component {
                         
                         <div style={{ marginLeft: 60, marginRight: 60, paddingTop: 50, maxWidth: '100vw', flex: 1, display: "flex", flexDirection: 'column', textAlign: 'center' }}>
                             <div style={{ width: '100vw', height: 'auto', flex: 1, flexDirection: 'row', display: 'flex', textAlign: 'center', justifyContent:'center' }}>
-                                <div style={{flex: 1, justifyContent: 'center', textAlign: 'center', flexDirection: 'column', display: 'flex', paddingTop: 50}}>
-                                    <text style={{fontFamily: "Gilroy", fontSize: '10vw', flex:1}}>Hi!</text>
-                                    <text style={{fontFamily: "Gilroy", fontSize: 20, flex: 1}}>I'm Max Johnson, a Computer Science Student at UW-Madison</text>
+                                <div style={{flex: 1, justifyContent: 'center', textAlign: 'center', flexDirection: 'column', display: 'flex', paddingTop: 50, maxWidth: '40vw',marginRight: 40}}>
+                                    <text style={{fontFamily: "Gilroy", fontSize: 100, flex:1}}>Hi!</text>
+                                    <text style={{fontFamily: "Gilroy", fontSize: 20, flex: 1}}>I'm Max Johnson, a Computer Science and Computer Engineering Student at UW-Madison</text>
                                 </div>
-                                <img src={imageLake} style={{height: 400, width: 540, marginRight: 100}}></img>
+                                <img src={imageLake} style={{height: 300, width: 400, marginRight: 100}}></img>
                             </div>
                             <div style={{paddingTop: 50,width: '100vw', height: 'auto', flex: 1, flexDirection: 'row', display: 'flex', textAlign: 'center', justifyContent: 'center' }}>
                                 <VerticalLine/>
-                                <div style={{maxWidth: '80vw', height:'auto', flex: 1, paddingTop: 30}}>
+                                <div style={{maxWidth: '60vw', height:'auto', flex: 1, paddingTop: 30, margin:40}}>
                                     <p style={{fontFamily: "Gilroy", fontSize: 20}}>
-                                        This is my little website about me!
+                                            This is one of my first projects in web development and theres a lot for me to learn in the future! Go take a look around at some of my favorite memories and projects if you'd like. If you would like to get in contact with me, just click "Contact"!
+                                            
                                     </p>
                                 </div>
                                 <VerticalLine/>
