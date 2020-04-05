@@ -35,7 +35,7 @@ export default class TopBarNav extends React.Component {
                 {/* Home Button */}
                 
                 <Card clickable={true} height={this.state.cardHeight} width='13vw' onClick={() => Router.push("/")}>
-                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor1, paddingRight: 20}}>
+                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor1}}>
                         Home
                     </text>
                 </Card>
@@ -44,7 +44,7 @@ export default class TopBarNav extends React.Component {
                 {/* Projects Button */}
                 
                 <Card clickable={true} height={this.state.cardHeight} width='13vw' onClick={() => Router.push("/projects")}>
-                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor2, paddingRight: 20}}>
+                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor2}}>
                         Projects
                     </text>
                 </Card>
@@ -53,7 +53,7 @@ export default class TopBarNav extends React.Component {
                 {/* Gallery Button */}
                 
                 <Card clickable={true} height={this.state.cardHeight} width='13vw' onClick={() => Router.push("/gallery")}>
-                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor3, paddingRight: 20 }}>
+                    <text style={{ paddingTop: 17, fontSize: 30, fontFamily: 'Gilroy', color: selectColor3}}>
                         Gallery
                     </text>
                 </Card>
