@@ -100,7 +100,7 @@ module.exports =
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/alsoFavs-0f6cd233f6049aeeb32903d3895ac71b.jpg";
+module.exports = "/_next/static/images/alsoFavs-8f5f39a28476189c4f526f5a2215ae36.jpg";
 
 /***/ }),
 
@@ -111,7 +111,7 @@ module.exports = "/_next/static/images/alsoFavs-0f6cd233f6049aeeb32903d3895ac71b
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/ceremony-1c9947d3a530ec5f45702ba959e3be60.jpg";
+module.exports = "/_next/static/images/ceremony-e67a2455f808eac4b01e537f41d56c40.jpg";
 
 /***/ }),
 
@@ -122,7 +122,7 @@ module.exports = "/_next/static/images/ceremony-1c9947d3a530ec5f45702ba959e3be60
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/color-UWcrest-print-736529d35728404aecf5f359a4217f52.png";
+module.exports = "/_next/static/images/color-UWcrest-print-e7248716a8624ae9bd40314c8bba8a13.png";
 
 /***/ }),
 
@@ -133,7 +133,7 @@ module.exports = "/_next/static/images/color-UWcrest-print-736529d35728404aecf5f
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/dad-30a0db773b3b88ae9c89c53bab05069f.jpg";
+module.exports = "/_next/static/images/dad-899b9c32ba8513a27d4147e6f63c507a.jpg";
 
 /***/ }),
 
@@ -144,7 +144,7 @@ module.exports = "/_next/static/images/dad-30a0db773b3b88ae9c89c53bab05069f.jpg"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/fam-da9b42ddd743162e5a7983e4b8499a27.jpg";
+module.exports = "/_next/static/images/fam-010eea66f81de050396d3a10973804a7.jpg";
 
 /***/ }),
 
@@ -155,7 +155,7 @@ module.exports = "/_next/static/images/fam-da9b42ddd743162e5a7983e4b8499a27.jpg"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/favs-82bde7c8da3fda8db4d7a661f5ff41b1.jpg";
+module.exports = "/_next/static/images/favs-fc9f4b00812df888bf4526e440a1201a.jpg";
 
 /***/ }),
 
@@ -166,7 +166,7 @@ module.exports = "/_next/static/images/favs-82bde7c8da3fda8db4d7a661f5ff41b1.jpg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/gang-7e566bc47d532ea4ddc994f7ca40efae.jpg";
+module.exports = "/_next/static/images/gang-fbc1bee9a63f1966e3491b6e49054e77.jpg";
 
 /***/ }),
 
@@ -177,7 +177,7 @@ module.exports = "/_next/static/images/gang-7e566bc47d532ea4ddc994f7ca40efae.jpg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/humo-6efd71cb622f0e0c0985d49d37f46c27.jpg";
+module.exports = "/_next/static/images/humo-772b5c6cc2cedba6b346f26770d8f91b.jpg";
 
 /***/ }),
 
@@ -188,7 +188,7 @@ module.exports = "/_next/static/images/humo-6efd71cb622f0e0c0985d49d37f46c27.jpg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/johnMayer-3468d34d5d203c86bbca823a327af580.jpg";
+module.exports = "/_next/static/images/johnMayer-03e58ba2a32d4653867de4ac37545edd.jpg";
 
 /***/ }),
 
@@ -199,7 +199,7 @@ module.exports = "/_next/static/images/johnMayer-3468d34d5d203c86bbca823a327af58
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/meAvatar-f94bc5a516ef38610847328a9a8cc5f2.jpg";
+module.exports = "/_next/static/images/meAvatar-cb03c40c71affade2e1d4453cee7e851.jpg";
 
 /***/ }),
 
@@ -210,7 +210,7 @@ module.exports = "/_next/static/images/meAvatar-f94bc5a516ef38610847328a9a8cc5f2
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/meElephant-1f6207fbcc8dce72a3a3eeb8acdd50a9.jpg";
+module.exports = "/_next/static/images/meElephant-c2c450e9e0c92811fec3467540e022bf.jpg";
 
 /***/ }),
 
@@ -221,7 +221,7 @@ module.exports = "/_next/static/images/meElephant-1f6207fbcc8dce72a3a3eeb8acdd50
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/meWithEggs-6677ad7b583c956f4bf58c530d62d973.jpg";
+module.exports = "/_next/static/images/meWithEggs-c62e61efc63bdf018b32c30dae8d6c7a.jpg";
 
 /***/ }),
 
@@ -232,7 +232,7 @@ module.exports = "/_next/static/images/meWithEggs-6677ad7b583c956f4bf58c530d62d9
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/nat-768ff7148d2533f903a97cf0376afbe2.jpg";
+module.exports = "/_next/static/images/nat-03ca8bdd7bc4b4333ff808c4e80ca113.jpg";
 
 /***/ }),
 
@@ -243,7 +243,7 @@ module.exports = "/_next/static/images/nat-768ff7148d2533f903a97cf0376afbe2.jpg"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/parks-eb0e7050044f88c5f1a0c8f9eadb7af4.jpg";
+module.exports = "/_next/static/images/parks-4dbb097c3ab8351ba7792431a710c62f.jpg";
 
 /***/ }),
 
@@ -254,7 +254,7 @@ module.exports = "/_next/static/images/parks-eb0e7050044f88c5f1a0c8f9eadb7af4.jp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/theBoys-7aa0896d6206a66544d516b8af9cb4e5.jpg";
+module.exports = "/_next/static/images/theBoys-473959ded5a65bcc3f6d11d9e6f1c593.jpg";
 
 /***/ }),
 
@@ -265,7 +265,7 @@ module.exports = "/_next/static/images/theBoys-7aa0896d6206a66544d516b8af9cb4e5.
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/theBoys2-90c18eb19374487297270910724a5af4.jpg";
+module.exports = "/_next/static/images/theBoys2-989d07bd98149c53ceb3ea6fa2057684.jpg";
 
 /***/ }),
 
@@ -276,7 +276,7 @@ module.exports = "/_next/static/images/theBoys2-90c18eb19374487297270910724a5af4
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/theater-47806eb5a4f3ec04abc4ff73bcb0e29a.jpg";
+module.exports = "/_next/static/images/theater-6836b9fa67535da0469d558b1baedf81.jpg";
 
 /***/ }),
 
@@ -287,7 +287,7 @@ module.exports = "/_next/static/images/theater-47806eb5a4f3ec04abc4ff73bcb0e29a.
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/wendys-8ab7fb5240ccd0730b7c7b1ebabac8c6.jpeg";
+module.exports = "/_next/static/images/wendys-c4d21e2707480be1da6ff4cf7ebb4a17.jpeg";
 
 /***/ }),
 
@@ -298,7 +298,7 @@ module.exports = "/_next/static/images/wendys-8ab7fb5240ccd0730b7c7b1ebabac8c6.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/will-862a0877b771e99a344809b043b8767d.jpg";
+module.exports = "/_next/static/images/will-667ba381da7e1c80853f6da4762da7bc.jpg";
 
 /***/ }),
 
@@ -334,7 +334,7 @@ class Card extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 
     if (this.state.hover) {
       linkStyle = {
-        width: this.props.width,
+        maxWidth: this.props.width,
         maxHeight: this.props.height,
         background: '#FFFFFF',
         cursor: 'pointer',
@@ -345,7 +345,7 @@ class Card extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       };
     } else {
       linkStyle = {
-        width: this.props.width,
+        maxWidth: this.props.width,
         maxHeight: this.props.height,
         background: '#FFFFFF',
         flexDirection: 'column',
@@ -588,7 +588,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor1
+        color: selectColor1,
+        paddingRight: 20
       },
       __self: this,
       __source: {
@@ -612,7 +613,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor2
+        color: selectColor2,
+        paddingRight: 20
       },
       __self: this,
       __source: {
@@ -636,7 +638,8 @@ class TopBarNav extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         paddingTop: 17,
         fontSize: 30,
         fontFamily: 'Gilroy',
-        color: selectColor3
+        color: selectColor3,
+        paddingRight: 20
       },
       __self: this,
       __source: {
