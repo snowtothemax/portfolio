@@ -1,15 +1,15 @@
 {
   "devFiles": [],
   "lowPriorityFiles": [
-    "static/IRcLIZGOhD-hM6MJtQDRf/_buildManifest.js",
-    "static/IRcLIZGOhD-hM6MJtQDRf/_ssgManifest.js"
+    "static/CXmpD7tpa-bohxH5-LCL4/_buildManifest.js",
+    "static/CXmpD7tpa-bohxH5-LCL4/_ssgManifest.js"
   ],
   "pages": {
     "/": [
       "static/runtime/webpack-b65cab0b00afd201cbda.js",
       "static/chunks/framework.98c1b221acb34aa9927b.js",
       "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
-      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/chunks/3a4144837be2983fd9b5fa7a364ebb9fe9a2b288.5f72a15ebb13f3f4464a.js",
       "static/runtime/main-c4f8053932ac768e77b4.js"
     ],
     "/_app": [
@@ -32,7 +32,7 @@
       "static/runtime/webpack-b65cab0b00afd201cbda.js",
       "static/chunks/framework.98c1b221acb34aa9927b.js",
       "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
-      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/chunks/3a4144837be2983fd9b5fa7a364ebb9fe9a2b288.5f72a15ebb13f3f4464a.js",
       "static/runtime/main-c4f8053932ac768e77b4.js"
     ],
     "/facebookRedirect": [
@@ -45,7 +45,7 @@
       "static/runtime/webpack-b65cab0b00afd201cbda.js",
       "static/chunks/framework.98c1b221acb34aa9927b.js",
       "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
-      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/chunks/3a4144837be2983fd9b5fa7a364ebb9fe9a2b288.5f72a15ebb13f3f4464a.js",
       "static/runtime/main-c4f8053932ac768e77b4.js"
     ],
     "/githubRedirect": [
@@ -58,7 +58,7 @@
       "static/runtime/webpack-b65cab0b00afd201cbda.js",
       "static/chunks/framework.98c1b221acb34aa9927b.js",
       "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
-      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/chunks/3a4144837be2983fd9b5fa7a364ebb9fe9a2b288.5f72a15ebb13f3f4464a.js",
       "static/runtime/main-c4f8053932ac768e77b4.js"
     ],
     "/instagramRedirect": [
@@ -77,7 +77,7 @@
       "static/runtime/webpack-b65cab0b00afd201cbda.js",
       "static/chunks/framework.98c1b221acb34aa9927b.js",
       "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
-      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/chunks/3a4144837be2983fd9b5fa7a364ebb9fe9a2b288.5f72a15ebb13f3f4464a.js",
       "static/runtime/main-c4f8053932ac768e77b4.js"
     ]
   }
