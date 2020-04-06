@@ -1,3 +1,4 @@
+import React from 'react'
 import TopBarNav from '../components/TopBarNavigator'
 import Head from 'next/head'
 import insta from '../assets/instaHover.png'

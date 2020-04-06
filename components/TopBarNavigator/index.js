@@ -1,4 +1,5 @@
 import Card from '../Card'
+import React from 'react'
 import uwLogo from '../../assets/color-UWcrest-print.png'
 import mePhoto from '../../assets/meAvatar.jpg'
 import Router from "next/router"

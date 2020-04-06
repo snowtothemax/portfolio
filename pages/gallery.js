@@ -1,4 +1,5 @@
 import TopBarNav from '../components/TopBarNavigator'
+import React from 'react'
 import Head from 'next/head'
 import Card from '../components/Card'
 import meEggs from '../assets/meWithEggs.jpg'

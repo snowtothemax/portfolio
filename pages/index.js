@@ -2,6 +2,7 @@ import VerticalLine from '../components/verticalLine'
 import TopBarNav from '../components/TopBarNavigator'
 import ImageCard from "../components/ImageCard"
 import imageLake from "../assets/meLake.jpg"
+import React from 'react'
 
 
 export default class Index extends React.Component {
