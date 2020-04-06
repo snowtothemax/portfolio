@@ -1,9 +1,8 @@
 import Card from '../Card'
 import React from 'react'
-import uwLogo from '../../assets/color-UWcrest-print.png'
-import mePhoto from '../../assets/meAvatar.jpg'
 import Router from "next/router"
 import Head from 'next/head'
+
 
 export default class TopBarNav extends React.Component {
     constructor(props) {
@@ -27,7 +26,7 @@ export default class TopBarNav extends React.Component {
             <div className='topbar'>
                 {/* My name and wisconsin Image */}
                 <Card clickable={false} height='100%' width='40vw'>
-                    <img src={uwLogo} style={{ paddingLeft: 55, height: 70, maxWidth: 60 }}></img>
+                    <img src="/color-UWcrest-print.png" style={{ paddingLeft: 55, height: 70, maxWidth: 60 }}></img>
                     <text style={{ fontFamily: 'Gilroy', fontSize: 50, paddingLeft: 20,}}>
                         Max Johnson
                 </text>
@@ -71,7 +70,7 @@ export default class TopBarNav extends React.Component {
 
                 {/**picture of me */}
                 <Card clickable={false} height={this.state.cardHeight} width='8vw'>
-                    <img className="avatar" src={mePhoto} style={{ borderRadius: '50%', height: 50, width: 50, transform: 'translate(0,20px)', position: 'absolute' }}>
+                    <img className="avatar" src='/meAvatar.jpg' style={{ borderRadius: '50%', height: 50, width: 50, transform: 'translate(0,20px)', position: 'absolute' }}>
                     </img>
                 </Card>
             </div>

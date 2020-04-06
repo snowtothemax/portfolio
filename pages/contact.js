@@ -1,13 +1,6 @@
 import React from 'react'
 import TopBarNav from '../components/TopBarNavigator'
-import Head from 'next/head'
-import insta from '../assets/instaHover.png'
-import facebook from "../assets/facebook.png"
-import github from "../assets/github.png"
-import linkedIn from "../assets/linkedIn.png"
-import VerticalLine from "../components/verticalLine"
 import Card from "../components/Card"
-import emailIcon from "../assets/emailIcon.png"
 import Router from 'next/router'
 
 
@@ -32,12 +25,12 @@ export default class Contact extends React.Component {
                         {/**Facebook n LinkedIn */}
                         <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center', margin: 20 }}>
                             <Card height="auto" width="auto" clickable={true} onClick={() => Router.push("/linkedInRedirect")}>
-                                <img src={linkedIn} style={{ maxHeight: 50, maxWidth: 50, marginRight: 20 }}>
+                                <img src="/linkedIn.png" style={{ maxHeight: 50, maxWidth: 50, marginRight: 20 }}>
 
                                 </img>
                             </Card>
                             <Card height="auto" width="auto" clickable={true}  onClick={() => Router.push("/facebookRedirect")}>
-                                <img src={facebook} style={{ maxHeight: 35, maxWidth: 35, marginRight: 30, marginTop: 7 }}>
+                                <img src="/facebook.png" style={{ maxHeight: 35, maxWidth: 35, marginRight: 30, marginTop: 7 }}>
 
                                 </img>
                             </Card>
@@ -53,12 +46,12 @@ export default class Contact extends React.Component {
                         {/** Instagram n Github */}
                         <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center',margin: 20 }}>
                             <Card clickable={true} height="auto" width="auto" onClick={() => Router.push("/instagramRedirect")} >
-                                <img src={insta} style={{maxHeight:70, maxWidth: 70, marginTop:7,  marginRight: 0,marginLeft: -37}}>
+                                <img src='/instaHover.png' style={{maxHeight:70, maxWidth: 70, marginTop:7,  marginRight: 0,marginLeft: -37}}>
 
                                 </img>
                             </Card>
                             <Card clickable={true} height="auto" width="auto" onClick={() => Router.push("/githubRedirect")}>
-                                <img src={github} style={{maxHeight:50, maxWidth:50, marginTop:0,  marginRight: 20}}>
+                                <img src="/github.png" style={{maxHeight:50, maxWidth:50, marginTop:0,  marginRight: 20}}>
 
                                 </img>
                             </Card>
@@ -74,7 +67,7 @@ export default class Contact extends React.Component {
                         {/** Email */}
                         <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center',margin: 20, marginLeft:50 }}>
                             <Card clickable={false} height="auto" width="auto">
-                                <img src={emailIcon} style={{maxHeight:40, maxWidth: 40, marginTop:7,  marginRight: 20}}>
+                                <img src="/emailIcon.png" style={{maxHeight:40, maxWidth: 40, marginTop:7,  marginRight: 20}}>
 
                                 </img>
                             </Card>

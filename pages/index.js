@@ -1,8 +1,8 @@
 import VerticalLine from '../components/verticalLine'
 import TopBarNav from '../components/TopBarNavigator'
 import ImageCard from "../components/ImageCard"
-import imageLake from "../assets/meLake.jpg"
 import React from 'react'
+import { getURL } from 'next/dist/next-server/lib/utils';
 
 
 export default class Index extends React.Component {
@@ -22,7 +22,7 @@ export default class Index extends React.Component {
                                     <text style={{fontFamily: "Gilroy", fontSize: 100, flex:1}}>Hi!</text>
                                     <text style={{fontFamily: "Gilroy", fontSize: 20, flex: 1}}>I'm Max Johnson, a Computer Science and Computer Engineering Student at UW-Madison</text>
                                 </div>
-                                <img src={imageLake} style={{height: 300, width: 400, marginRight: 100}}></img>
+                                <img src="/meLake.jpg" style={{height: 300, width: 400, marginRight: 100}}></img>
                             </div>
                             <div style={{paddingTop: 50,width: '100vw', height: 'auto', flex: 1, flexDirection: 'row', display: 'flex', textAlign: 'center', justifyContent: 'center' }}>
                                 <VerticalLine/>
