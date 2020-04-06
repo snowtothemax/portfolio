@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"/_app":"static/development/pages/_app.js","/_document":"static/development/pages/_document.js","/_error":"static/development/pages/_error.js","/index":"static/development/pages/index.js","/":"static/development/pages/index.js"}
+=======
+{"/_app":"static/IRcLIZGOhD-hM6MJtQDRf/pages/_app.js","/_document":"static/IRcLIZGOhD-hM6MJtQDRf/pages/_document.js","/_error":"static/IRcLIZGOhD-hM6MJtQDRf/pages/_error.js","/contact":"static/IRcLIZGOhD-hM6MJtQDRf/pages/contact.html","/facebookRedirect":"static/IRcLIZGOhD-hM6MJtQDRf/pages/facebookRedirect.js","/gallery":"static/IRcLIZGOhD-hM6MJtQDRf/pages/gallery.html","/githubRedirect":"static/IRcLIZGOhD-hM6MJtQDRf/pages/githubRedirect.js","/index":"static/IRcLIZGOhD-hM6MJtQDRf/pages/index.html","/instagramRedirect":"static/IRcLIZGOhD-hM6MJtQDRf/pages/instagramRedirect.js","/linkedInRedirect":"static/IRcLIZGOhD-hM6MJtQDRf/pages/linkedInRedirect.js","/projects":"static/IRcLIZGOhD-hM6MJtQDRf/pages/projects.html","/":"static/IRcLIZGOhD-hM6MJtQDRf/pages/index.html","/404":"static/IRcLIZGOhD-hM6MJtQDRf/pages/404.html"}
+>>>>>>> parent of 0527951... Built app

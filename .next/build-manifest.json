@@ -4,6 +4,7 @@
     "static/development/dll/dll_dc8ac110ce5d8530b237.js.map"
   ],
   "lowPriorityFiles": [
+<<<<<<< HEAD
     "static/development/_buildManifest.js",
     "static/development/_ssgManifest.js"
   ],
@@ -11,6 +12,18 @@
     "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+=======
+    "static/IRcLIZGOhD-hM6MJtQDRf/_buildManifest.js",
+    "static/IRcLIZGOhD-hM6MJtQDRf/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+>>>>>>> parent of 0527951... Built app
     ],
     "/_app": [
       "static/runtime/webpack.js",
@@ -21,12 +34,68 @@
       "static/runtime/main.js"
     ],
     "/_polyfills": [
+<<<<<<< HEAD
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+=======
+      "static/runtime/polyfills-03f11e51b3841776b268.js"
+    ],
+    "/contact": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+    ],
+    "/facebookRedirect": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+    ],
+    "/gallery": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+    ],
+    "/githubRedirect": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+    ],
+    "/instagramRedirect": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+    ],
+    "/linkedInRedirect": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+    ],
+    "/projects": [
+      "static/runtime/webpack-b65cab0b00afd201cbda.js",
+      "static/chunks/framework.98c1b221acb34aa9927b.js",
+      "static/chunks/commons.fcbc8a4ff49f0a7e5fcb.js",
+      "static/chunks/94dc4d2996f1f3c3acf384c351d6a48355d207a1.5f72a15ebb13f3f4464a.js",
+      "static/runtime/main-c4f8053932ac768e77b4.js"
+>>>>>>> parent of 0527951... Built app
     ]
   }
 }
