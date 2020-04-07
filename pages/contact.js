@@ -24,12 +24,12 @@ export default class Contact extends React.Component {
 
                         {/**Facebook n LinkedIn */}
                         <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center', margin: 20 }}>
-                            <Card height="auto" width="auto" clickable={true} onClick={/**() => window.location = "https://www.linkedin.com/in/maxwell-johnson-4a1111179/"*/}>
+                            <Card height="auto" width="auto" clickable={true} {/**() => window.location = "https://www.linkedin.com/in/maxwell-johnson-4a1111179/"*/}>
                                 <img src="/linkedIn.png" style={{ maxHeight: 50, maxWidth: 50, marginRight: 20 }}>
 
                                 </img>
                             </Card>
-                            <Card height="auto" width="auto" clickable={true}  onClick={/**() => window.location = "https://www.facebook.com/nick.licker.98"*/}>
+                            <Card height="auto" width="auto" clickable={true}  {/**() => window.location = "https://www.facebook.com/nick.licker.98"*/}>
                                 <img src="/facebook.png" style={{ maxHeight: 35, maxWidth: 35, marginRight: 30, marginTop: 7 }}>
 
                                 </img>
@@ -45,12 +45,12 @@ export default class Contact extends React.Component {
 
                         {/** Instagram n Github */}
                         <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center',margin: 20 }}>
-                            <Card clickable={true} height="auto" width="auto" onClick={/**() => window.location = "https://www.instagram.com/snowtothemax/"*/} >
+                            <Card clickable={true} height="auto" width="auto" {/**() => window.location = "https://www.instagram.com/snowtothemax/"*/} >
                                 <img src='/instaHover.png' style={{maxHeight:70, maxWidth: 70, marginTop:7,  marginRight: 0,marginLeft: -37}}>
 
                                 </img>
                             </Card>
-                            <Card clickable={true} height="auto" width="auto" onClick={/**() => window.location = "https://github.com/snowtothemax"*/}>
+                            <Card clickable={true} height="auto" width="auto" {/**() => window.location = "https://github.com/snowtothemax"*/}>
                                 <img src="/github.png" style={{maxHeight:50, maxWidth:50, marginTop:0,  marginRight: 20}}>
 
                                 </img>
