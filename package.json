@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "imagemin-gifsicle": "^7.0.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^7.1.0",
     "imagemin-svgo": "^7.1.0",
@@ -23,9 +22,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "strip-ansi": "^6.0.0",
-    "webpack": "^4.42.1",
-    "file-loader": "^6.0.0",
-    "url-loader": "^4.0.0"
+    "webpack": "^4.42.1"
   },
   "devDependencies": {
     "file-loader": "^6.0.0",
