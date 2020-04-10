@@ -10,7 +10,6 @@ export default class ImageCard extends React.Component {
             height: this.props.height,
             width: this.props.width,
             transform: this.props.transform,
-            rotate: this.props.rotate,
             hoverEnable: true
         }
     }
@@ -22,9 +21,9 @@ export default class ImageCard extends React.Component {
 
         if(this.state.hover){
             
-            imgStyle={boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19)', transform: " rotate("+this.state.rotate+")", maxWidth: hoverWidth, height: "auto", margin: "5vw", flex:1}
+            imgStyle={boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19)', orientation: 90, maxWidth: hoverWidth, height: "auto", margin: "5vw"}
         }else{
-            imgStyle={boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19)', transform: "  rotate("+this.state.rotate+")", maxWidth: this.state.width, height: "auto", margin: "5vw", flex:1} 
+            imgStyle={boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19)', orientation: 90, maxWidth: this.state.width, height: "auto", margin: "5vw"} 
         }
 
         return (

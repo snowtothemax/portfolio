@@ -26,56 +26,56 @@ export default class Gallery extends React.Component {
                 <TopBarNav currentPage = {3} />
                 <div style={{flex: 1, display:'flex', flexDirection: 'row', margin:0, padding: 0, border: 0}}>
                     <div className='galleryContent'>
-                        <ImageCard source='/meWithEggs.JPG'width={"60vw"} rotate="0deg">
+                        <ImageCard source='/meWithEggs.JPG'width={"50vw"} >
 
                         </ImageCard>
-                        <ImageCard source="/johnMayer.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/johnMayer.JPG" width={"50vw"} >
 
                         </ImageCard>
-                        <ImageCard source="/dad.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/dad.JPG" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/ceremony.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/ceremony.JPG" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/fam.jpg"width={"60vw"} rotate="0deg">
+                        <ImageCard source="/fam.jpg"width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/humo.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/humo.JPG" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/gang.jpg" width={"60vw"} rotate="90deg">
+                        <ImageCard source="/gang.jpg" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/favs.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/favs.JPG" width={"50vw"}>
 
                         </ImageCard>
                         
-                        <ImageCard source="/meElephant.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/meElephant.JPG" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/nat.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/nat.JPG" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/parks.JPG" width={"60vw"} rotate="90deg">
+                        <ImageCard source="/parks.JPG" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/theater.jpg" width={"60vw"} rotate="90deg">
+                        <ImageCard source="/theater.jpg" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/theBoys.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/theBoys.JPG" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/theBoys2.jpg" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/theBoys2.jpg" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/will.JPG" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/will.JPG" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/alsoFavs.jpg" width={"60vw"} rotate="0deg">
+                        <ImageCard source="/alsoFavs.jpg" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source ="/wendys.JPEG" width={"60vw"} rotate="90deg">
+                        <ImageCard source ="/wendys.JPEG" width={"50vw"}>
 
                         </ImageCard>
                     </div>
