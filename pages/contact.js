@@ -56,7 +56,7 @@ export default class Contact extends React.Component {
                                 </img>
                             </Card>
                             <Card clickable={true} height="auto" width="auto" onClick={() => window.location = "https://github.com/snowtothemax"}>
-                                <img src="/github.png" style={{ maxHeight: 50, maxWidth: 50, marginTop: 0, marginRight: 20 }}>
+                                <img src="/github.png" style={{ maxHeight: 50, maxWidth: 50, marginTop: 0, marginRight: 27 }}>
 
                                 </img>
                             </Card>
