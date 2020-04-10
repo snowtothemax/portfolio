@@ -26,7 +26,7 @@ export default class TopBarNav extends React.Component {
             <div className='topbar'>
                 {/* My name and wisconsin Image */}
                 <Card clickable={false} height='100%' width='40vw'>
-                    <img src="/color-UWcrest-print.png" style={{ paddingLeft: 0, height: 70, maxWidth: 60, position: 'initial'}}></img>
+                    <img src="/color-UWcrest-print.png" style={{height:'auto', paddingLeft: 0, height: 70, maxWidth: "10vw", position: 'initial'}}></img>
                     <text style={{ fontFamily: 'Gilroy', fontSize: "3.5vw", paddingLeft: 20,}}>
                         Max Johnson
                 </text>
@@ -70,7 +70,7 @@ export default class TopBarNav extends React.Component {
 
                 {/**picture of me */}
                 <Card clickable={false} height={this.state.cardHeight} width='8vw'>
-                    <img src='/meAvatar.JPG' style={{ borderRadius: '50%', height: 50, width: 50, transform: 'translate(0,20px)', position: 'absolute' }}>
+                    <img src='/meAvatar.JPG' style={{ borderRadius: '50%', height: '4vw', width: '4vw', transform: 'translate(0,1.2vw)', position: 'absolute' }}>
                     </img>
                 </Card>
             </div>
