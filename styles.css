@@ -70,10 +70,10 @@
     justify-content: center; 
 }
 
-.homeText img{
-    max-height: auto ;
+.homeText img {
+    max-height: 32vw ;
     max-width: 40vw;
-    margin-right: 100px;
+    margin-right: 5vw;
 }
 
 
