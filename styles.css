@@ -71,10 +71,8 @@
 }
 
 .homeText img{
-    height: auto;
     max-width: 40vw;
     margin-right: 100px;
-    flex: 1;
 }
 
 
