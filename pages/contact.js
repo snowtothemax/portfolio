@@ -1,15 +1,20 @@
 import React from 'react'
 import TopBarNav from '../components/TopBarNavigator'
 import Card from "../components/Card"
+import Head from "next/head"
 import Router from 'next/router'
 
 
 export default class Contact extends React.Component {
     render() {
         return (
-
-            <div className='container'>
-
+            
+            <div className='container-fluid'>
+                <Head>
+                    <title> Contacts </title>
+                    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+                </Head>
                 <TopBarNav currentPage={4} />
                 <div style={{ flex: 1, display: 'flex', flexDirection: 'row', margin: 0, padding: 0, border: 0 }}>
                     <div className='galleryContent'>
@@ -29,7 +34,7 @@ export default class Contact extends React.Component {
 
                                 </img>
                             </Card>
-                            <Card height="auto" width="auto" clickable={true}  onClick={() => window.location = "https://www.facebook.com/nick.licker.98"}>
+                            <Card height="auto" width="auto" clickable={true} onClick={() => window.location = "https://www.facebook.com/nick.licker.98"}>
                                 <img src="/facebook.png" style={{ maxHeight: 35, maxWidth: 35, marginRight: 30, marginTop: 7 }}>
 
                                 </img>
@@ -44,14 +49,14 @@ export default class Contact extends React.Component {
                         </div>
 
                         {/** Instagram n Github */}
-                        <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center',margin: 20 }}>
+                        <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center', margin: 20 }}>
                             <Card clickable={true} height="auto" width="auto" onClick={() => window.location = "https://www.instagram.com/snowtothemax/"} >
-                                <img src='/instaHover.png' style={{maxHeight:70, maxWidth: 70, marginTop:7,  marginRight: 0,marginLeft: -37}}>
+                                <img src='/instaHover.png' style={{ maxHeight: 70, maxWidth: 70, marginTop: 7, marginRight: 0, marginLeft: -37 }}>
 
                                 </img>
                             </Card>
                             <Card clickable={true} height="auto" width="auto" onClick={() => window.location = "https://github.com/snowtothemax"}>
-                                <img src="/github.png" style={{maxHeight:50, maxWidth:50, marginTop:0,  marginRight: 20}}>
+                                <img src="/github.png" style={{ maxHeight: 50, maxWidth: 50, marginTop: 0, marginRight: 20 }}>
 
                                 </img>
                             </Card>
@@ -65,9 +70,9 @@ export default class Contact extends React.Component {
                         </div>
 
                         {/** Email */}
-                        <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center',margin: 20, marginLeft:50 }}>
+                        <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center', margin: 20, marginLeft: 50 }}>
                             <Card clickable={false} height="auto" width="auto">
-                                <img src="/emailIcon.png" style={{maxHeight:40, maxWidth: 40, marginTop:7,  marginRight: 20}}>
+                                <img src="/emailIcon.png" style={{ maxHeight: 40, maxWidth: 40, marginTop: 7, marginRight: 20 }}>
 
                                 </img>
                             </Card>
