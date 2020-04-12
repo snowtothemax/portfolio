@@ -50,10 +50,6 @@ export default class Gallery extends React.Component {
                         <ImageCard source="/gang.jpg" width={"50vw"}>
 
                         </ImageCard>
-                        <ImageCard source="/favs.JPG" width={"50vw"}>
-
-                        </ImageCard>
-                        
                         <ImageCard source="/meElephant.JPG" width={"50vw"}>
 
                         </ImageCard>
