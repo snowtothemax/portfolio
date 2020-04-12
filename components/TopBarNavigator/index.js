@@ -70,7 +70,7 @@ export default class TopBarNav extends React.Component {
 
                 {/**picture of me */}
                 <Card clickable={false} height={this.state.cardHeight} width='8vw'>
-                    <img src='/meAvatar.JPG' style={{ borderRadius: '50%', height: '4vw', width: '4vw', transform: 'translate(0,1.2vw)', position: 'absolute' }}>
+                    <img src='/meAvatar.JPG' style={{ borderRadius: '50%', height: 'auto', maxWidth: '4vw', transform: 'translate(0,1.2vw)', position: 'absolute' }}>
                     </img>
                 </Card>
             </div>
