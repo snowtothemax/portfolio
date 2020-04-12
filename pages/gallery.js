@@ -44,6 +44,9 @@ export default class Gallery extends React.Component {
                         <ImageCard source="/humo.JPG" width={"50vw"}>
 
                         </ImageCard>
+                        <ImageCard source="/zoe.JPG" width={"50vw"}>
+
+                        </ImageCard>
                         <ImageCard source="/gang.jpg" width={"50vw"}>
 
                         </ImageCard>
