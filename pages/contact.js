@@ -39,7 +39,7 @@ export default class Contact extends React.Component {
 
                                 </img>
                             </Card>
-                            <div style={{ borderLeft: '2px solid black', height: '70%', justifyContent: 'center', transform: "translate(0, 7px)" }}>
+                            <div style={{ borderLeft: '2px solid black', height: 'auto', justifyContent: 'center' }}>
                             </div>
                             <div style={{ justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
                                 <text style={{ fontFamily: "Gilroy", fontSize: 30, marginLeft: 20, marginTop: 5 }}>
@@ -49,7 +49,7 @@ export default class Contact extends React.Component {
                         </div>
 
                         {/** Instagram n Github */}
-                        <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center', margin: 20 }}>
+                        <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center', margin: 20, alignContent: 'center' }}>
                             <Card clickable={true} height="auto" width="auto" onClick={() => window.location = "https://www.instagram.com/snowtothemax/"} >
                                 <img src='/instaHover.png' style={{ maxHeight: 70, maxWidth: 70, marginTop: 7, marginRight: 0, marginLeft: -37 }}>
 
@@ -60,23 +60,23 @@ export default class Contact extends React.Component {
 
                                 </img>
                             </Card>
-                            <div style={{ borderLeft: '2px solid black', height: '80%', justifyContent: 'center', transform: "translate(0, 7px)" }}>
+                            <div className="align-baseline" style={{ borderLeft: '2px solid black', height: 'auto'}}>
                             </div>
                             <div style={{ justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
-                                <text style={{ fontFamily: "Gilroy", fontSize: 30, marginLeft: 20, marginTop: 5 }}>
+                                <text style={{ fontFamily: "Gilroy", fontSize: 30, marginLeft: 20, marginTop: 0 }}>
                                     snowtothemax
                                 </text>
                             </div>
                         </div>
 
                         {/** Email */}
-                        <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center', margin: 20, marginLeft: 50 }}>
+                        <div style={{ flexDirection: 'row', display: 'flex', justifyContent: "center", textAlign: 'center', margin: 20, marginLeft: 50, alignContent: 'center' }}>
                             <Card clickable={false} height="auto" width="auto">
                                 <img src="/emailIcon.png" style={{ maxHeight: 40, maxWidth: 40, marginTop: 7, marginRight: 20 }}>
 
                                 </img>
                             </Card>
-                            <div style={{ borderLeft: '2px solid black', height: '80%', justifyContent: 'center', transform: "translate(0, 7px)" }}>
+                            <div style={{ borderLeft: '2px solid black', height: 'auto', justifyContent: 'center', transform: "translate(0, 7px)" }}>
                             </div>
                             <div style={{ justifyContent: 'center', textAlign: 'center', display: 'flex' }}>
                                 <text style={{ fontFamily: "Gilroy", fontSize: 30, marginLeft: 20, marginTop: 5 }}>
